@@ -1,1 +1,170 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Molave Zamboanga del Sur</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      scroll-behavior: smooth;
+      font-family: Arial, sans-serif;
+    }
+
+    section {
+      padding: 80px 20px;
+      color: white;
+    }
+
+#home {
+  background-size: 80% auto; /* Adjust the size */
+  background-position: center;
+  height: 100vh;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+    #home h1 {
+      font-size: 3rem;
+      margin-top: 20%;
+    }
+
+    #home p {
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+
+    /* About Section */
+    #about {
+      background-color: #343a40;
+      color: #f8f9fa;
+    }
+
+    /* Services Section */
+    #services {
+      background-color: #6c757d;
+    }
+
+    /* Portfolio Section */
+    #portfolio {
+      background-color: #495057;
+    }
+
+    /* Contact Section */
+    #contact {
+      background-color: #212529;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    .navbar {
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar-brand {
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+
+    .nav-link {
+      font-size: 1.1rem;
+      padding: 8px 20px;
+    }
+
+    .nav-link:hover {
+      background-color: #007bff;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Molave ZDS</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Sections -->
+<section id="home">
+  <div class="container text-center">
+    <h1>Welcome to Molave!</h1>
+    <p>Discover the rich history and vibrant community of Molave, Zamboanga del Sur.</p>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <h1>About Molave</h1>
+    <p>Molave, Zamboanga del Sur, has a rich history dating back to the Subanen tribe and its subsequent settlement by other families. It became a municipality in 1948, with its vibrant commerce making it a commercial hub in the region.</p>
+  </div>
+</section>
+
+<section id="services">
+  <div class="container">
+    <h1>Services</h1>
+    <p>Molave offers a wide range of services, from healthcare and education to agriculture and local governance. The municipality is committed to providing essential services that improve the lives of its residents.</p>
+  </div>
+</section>
+
+<section id="portfolio">
+  <div class="container">
+    <h1>Portfolio</h1>
+    <p>Molave is constantly working on various projects, from infrastructure improvements to supporting the agricultural sector, which plays a key role in the local economy. Recent initiatives have aimed at enhancing public facilities and services.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <h1>Contact</h1>
+    <p>For inquiries, feel free to reach us at:</p>
+    <ul>
+      <li>Address: Rizal Avenue, Barangay Makuguihon, Molave, Zamboanga del Sur, 7023</li>
+      <li>Phone: (062) 225-2170</li>
+      <li>Email: <a href="mailto:lgu_molave@yahoo.com" style="color: #007bff;">lgu_molave@yahoo.com</a></li>
+      <li>Website: <a href="https://www.molave.gov.ph" target="_blank" style="color: #007bff;">www.molave.gov.ph</a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- Bootstrap 5 JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
